@@ -111,4 +111,10 @@ public class RequestParamController {
         return helloData.getUsername() +"님 안녕하세요";
     }
     //단순한 Type 이면 @RequestParam 을 사용하고 그 외는 @ModelAttribute 를 사용한다.(예외는 argument resolver 를 지정해둔 타입제외)
+
+
+
+    //요청 파라미터 vs HTTP 메시지 바디
+    //요청 파라미터를 조회하는 기능: @RequestParam , @ModelAttribute
+    //HTTP 메시지 바디를 직접 조회하는 기능: @RequestBody
 }
